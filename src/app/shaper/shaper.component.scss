@@ -221,72 +221,82 @@ $color: #300f3c;
   left: 1px;
 }
 
-
 /* mountain 1 */
 .shape-mountain1-outer {
   width: 0;
-  border-width: 66px 48px 62.5px 21px;
-  border-color: transparent white white white;
+  top: 1vw;
+  left: 0vw;
+  border-width: 0vw 0 34vw 26vw;
+  border-color: transparent transparent white transparent;
 }
-
-.shape-mountain1 { 
-  border-width: 124px 0px 0px 42px;
-  border-color: transparent transparent transparent #2b1139;
+.shape-mountain1 {
+  border-width: 38vw 0 33vw 25vw;
+  left: 10px;
+  border-color: transparent transparent #2b1139 transparent;
+  top: -36.5vw;
+  left: 1vw;
 }
-
 
 /* mountain 2 */
 .shape-mountain2-outer {
   width: 0;
-  border-width: 61px 94px 69px 62px;
+  border-width: 34vw 0vw 0vw 31vw;
   border-style: solid;
-  border-color: transparent white white white;
-
+  border-color: transparent transparent transparent white;
+  left: 26vw;
+  top: 1vw;
 }
 
 .shape-mountain2 {
   width: 0;
-  border-width: 124px 0px 0px 42px;
+  border-width: 33vw 0vw 0vw 30vw;
   border-color: transparent transparent transparent #2b1139;
+  left: 26vw;
+  top: 2vw;
 }
-
 
 /* mountain 3 */
 .shape-mountain3-outer {
   width: 0;
-  border-color: transparent transparent transparent transparent;
-
+  top: -12vw;
+  left: 25.9vw;
+  border-width: 0vw 32vw 47vw 38vw;
+  border-color: transparent transparent white transparent;
 }
 
 .shape-mountain3 {
-  width: 0;
-  border-width: 111px 171px 0px 53px;
-  border-color: transparent #2b1139 transparent transparent;
+  border-width: 38vw 31.4vw 46vw 37vw;
+  left: 10px;
+  border-color: transparent transparent #2b1139 transparent;
+  top: -49.5vw;
+  left: 26.8vw;
 }
-
 
 /* mountain 4 */
 .shape-mountain4-outer {
   width: 0;
-  border-width: 7px 121px 130px 0px;
+  top: 3.8vw;
+  left: 53.1vw;
+  border-width: 0vw 32vw 31vw 33vw;
   border-color: transparent transparent white transparent;
 }
 
 .shape-mountain4 {
-  width: 0;
-  border-color: transparent transparent transparent #2b1139;
+  border-width: 0vw 32vw 30vw 32vw;
+  left: 10px;
+  border-color: transparent transparent #2b1139 transparent;
+  top: 4.5vw;
+  left: 54vw;
 }
-
 
 /* mountain 5 */
 .shape-mountain5-outer {
   width: 0;
   border-width: 68px 93px 69px 77px;
   border-color: transparent white white white;
-
 }
 
-.shape-mountain5 { 
+.shape-mountain5 {
   width: 0;
   border-color: transparent transparent #2b1139 transparent;
 }
