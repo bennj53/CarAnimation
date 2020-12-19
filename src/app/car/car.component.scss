@@ -1,0 +1,197 @@
+.car {
+  position: relative;
+  background-color: transparent;
+  width: 355px;
+  height: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-color: transparent;
+  transform: perspective(10px) rotate3d(0, 0, 0, 1deg);
+  animation: car-speed 500ms 1500ms infinite alternate;
+
+  @media only screen and (min-width: 768px) {
+    width: 453px;
+  }
+
+  &__windscreen-hood {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  &__windscreen {
+    position: absolute;
+    left: 38px;
+    width: 100%;
+
+    @media only screen and (min-width: 768px) {
+      left: 48px;
+    }
+  }
+
+  &__hood {
+    position: absolute;
+    left: 3px;
+    width: 90%;
+  }
+
+  &__level1 {
+    width: 89%;
+    position: absolute;
+  }
+
+  &__level1-light {
+    position: absolute;
+    width: 84%;
+    height: 20px;
+    border: 2px solid #e20b23;
+    top: 135px;
+    left: 8px;
+
+    .level1-left1 {
+      position: absolute;
+      margin: -0.5% 0% 0 -0.5%;
+      width: 12%;
+      height: 97%;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #e20b23;
+    }
+
+    .left1-light {
+      position: absolute;
+      width: 25%;
+      height: 48%;
+      margin: 12% 0 0 32%;
+      border-radius: 50%;
+      animation: ligth-on 1500ms 1500ms forwards infinite alternate;
+    }
+
+    .level1-left2 {
+      position: absolute;
+      margin: -0.5% 0% 0 -0.5%;
+      width: 12%;
+      height: 97%;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #e20b23;
+      left: 50px;
+    }
+
+    .left2-light {
+      position: absolute;
+      width: 25%;
+      height: 48%;
+      margin: 12% 0 0 32%;
+      border-radius: 50%;
+      animation: ligth-on 1500ms 1500ms forwards infinite alternate;
+    }
+
+    .level1-right1 {
+      position: absolute;
+      right: 0;
+      margin: -0.5% 0% 0 -0.5%;
+      width: 12%;
+      height: 97%;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #e20b23;
+    }
+
+    .right1-light {
+      position: absolute;
+      width: 25%;
+      height: 48%;
+      margin: 12% 0 0 32%;
+      border-radius: 50%;
+      animation: ligth-on 1500ms 1500ms forwards infinite alternate;
+    }
+
+    .level1-right2 {
+      position: absolute;
+      margin: -0.5% 0% 0 -0.5%;
+      width: 12%;
+      height: 97%;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: #e20b23;
+      right: 50px;
+    }
+
+    .right2-light {
+      position: absolute;
+      width: 25%;
+      height: 48%;
+      margin: 12% 0 0 32%;
+      border-radius: 50%;
+      animation: ligth-on 1500ms 1500ms forwards infinite alternate;
+    }
+  }
+
+  &__level2 {
+    position: absolute;
+    width: 93%;
+  }
+
+  &__wheel {
+    position: absolute;
+    width: 100%;
+  }
+
+  &__level3 {
+    position: absolute;
+    width: 88%;
+    top: 56px;
+  }
+
+  &__level4 {
+    position: absolute;
+    width: 88%;
+    top: 195px;
+  }
+
+  &__level5 {
+    position: absolute;
+    width: 89%;
+    top: 205px;
+    left: 8px;
+  }
+
+  &__level6 {
+    position: absolute;
+    width: 90%;
+    top: 227px;
+    left: 17px;
+  }
+}
+
+@keyframes ligth-on {
+  0% {
+    box-shadow: 0px 0px 10px 13px #fe2cff;
+    background-color: #fe2cff;
+  }
+  50% {
+    box-shadow: 0px 0px 14px 16px #fe2cff;
+    background-color: #fe2cff;
+  }
+  100% {
+    box-shadow: 0px 0px 17px 19px #fe2cff;
+    background-color: #fe2cff;
+  }
+}
+
+@keyframes car-speed {
+  0% {
+    transform: perspective(125px) rotate3d(1, 0, 0, 1deg);
+  }
+  50% {
+    transform: perspective(125px) rotate3d(1, 0, 1, 1deg);
+  }
+  100% {
+    transform: perspective(125px) rotate3d(2, 0, -1, 1deg);
+  }
+}
