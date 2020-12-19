@@ -1,22 +1,10 @@
-block-headlight-light {
-  position: absolute;
-  width: 84%;
+.headlight {
+  position: relative;
+  width: 30px;
   height: 20px;
   border: 2px solid #e20b23;
-  top: 135px;
-  left: 8px;
 
-  .headlight-left1 {
-    position: absolute;
-    margin: -0.5% 0% 0 -0.5%;
-    width: 12%;
-    height: 97%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #e20b23;
-  }
-
-  .headlight1-light {
+  &__light {
     position: absolute;
     width: 25%;
     height: 48%;
@@ -24,64 +12,19 @@ block-headlight-light {
     border-radius: 50%;
     animation: ligth-on 1500ms 1500ms forwards infinite alternate;
   }
+}
 
-  .headlight-left2 {
-    position: absolute;
-    margin: -0.5% 0% 0 -0.5%;
-    width: 12%;
-    height: 97%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #e20b23;
-    left: 50px;
+@keyframes ligth-on {
+  0% {
+    box-shadow: 0px 0px 10px 13px #fe2cff;
+    background-color: #fe2cff;
   }
-
-  .headlight2-light {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    margin: 12% 0 0 32%;
-    border-radius: 50%;
-    animation: ligth-on 1500ms 1500ms forwards infinite alternate;
+  50% {
+    box-shadow: 0px 0px 14px 16px #fe2cff;
+    background-color: #fe2cff;
   }
-
-  .level1-right1 {
-    position: absolute;
-    right: 0;
-    margin: -0.5% 0% 0 -0.5%;
-    width: 12%;
-    height: 97%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #e20b23;
-  }
-
-  .right1-light {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    margin: 12% 0 0 32%;
-    border-radius: 50%;
-    animation: ligth-on 1500ms 1500ms forwards infinite alternate;
-  }
-
-  .level1-right2 {
-    position: absolute;
-    margin: -0.5% 0% 0 -0.5%;
-    width: 12%;
-    height: 97%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #e20b23;
-    right: 50px;
-  }
-
-  .right2-light {
-    position: absolute;
-    width: 25%;
-    height: 48%;
-    margin: 12% 0 0 32%;
-    border-radius: 50%;
-    animation: ligth-on 1500ms 1500ms forwards infinite alternate;
+  100% {
+    box-shadow: 0px 0px 17px 19px #fe2cff;
+    background-color: #fe2cff;
   }
 }

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ShaperComponent } from './shaper/shaper.component';
 import { CarComponent } from './car/car.component';
 import { HeadlightComponent } from './headlight/headlight.component';
+import { HeadlightsComponent } from './headlights/headlights.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShaperComponent,
     CarComponent,
-    HeadlightComponent
+    HeadlightComponent,
+    HeadlightsComponent
 
   ],
   imports: [

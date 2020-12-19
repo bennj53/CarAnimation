@@ -13,7 +13,7 @@
 
   @media only screen and (min-width: 768px) {
     width: 453px;
-    left: 50%
+    left: 50%;
   }
 
   &__windscreen-hood {
@@ -32,7 +32,6 @@
     @media only screen and (min-width: 768px) {
       left: 48px;
       width: 100%;
-  
     }
   }
 
@@ -41,18 +40,15 @@
     // left: 3px;
     width: 88%;
 
-
     @media only screen and (min-width: 768px) {
       left: 3px;
       width: 90%;
-
     }
   }
 
   &__level1 {
     width: 87%;
     position: absolute;
-
 
     @media only screen and (min-width: 768px) {
       width: 89%;
@@ -189,32 +185,16 @@
 
   &__border {
     position: absolute;
-    top:78px;
-    left:30px;
+    top: 78px;
+    left: 30px;
     width: 72%;
     height: 2px;
     background-color: #e20b23;
 
     @media only screen and (min-width: 768px) {
       height: 3px;
-      left:34px;
+      left: 34px;
     }
-  
-  }
-}
-
-@keyframes ligth-on {
-  0% {
-    box-shadow: 0px 0px 10px 13px #fe2cff;
-    background-color: #fe2cff;
-  }
-  50% {
-    box-shadow: 0px 0px 14px 16px #fe2cff;
-    background-color: #fe2cff;
-  }
-  100% {
-    box-shadow: 0px 0px 17px 19px #fe2cff;
-    background-color: #fe2cff;
   }
 }
 
