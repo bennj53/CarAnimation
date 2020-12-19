@@ -19,16 +19,18 @@ $color: #300f3c;
 }
 
 .shape--mirrors {
-  width: 80%;
+  width: 82%;
   height: 24px;
   background-color: $color;
   border: 2px solid $border-color;
   border-radius: 10px;
-  top: 50px;
-  margin: 0 21px;
+  top: 54px;
+  margin: 0 13px;
 
   @media only screen and (min-width: 768px) {
+    top: 50px;
     margin: 0 16px;
+    width:80%;
   }
 }
 
@@ -36,6 +38,7 @@ $color: #300f3c;
 .shape--windscreen-hood-outer {
   width: 49.3%;
   border-width: 0px 57px 131px 84px;
+  border-width: 0px 58px 131px 77px;
   border-color: transparent transparent $border-color transparent;
 
   @media only screen and (min-width: 768px) {
@@ -46,7 +49,7 @@ $color: #300f3c;
 .shape--windscreen-hood {
   width: 48%;
   margin: 0.5% 0.5% 0% 0.5%;
-  border-width: 0px 56px 127px 85px;
+  border-width: 0px 56px 127px 78px;
   border-color: transparent transparent $color transparent;
 
   @media only screen and (min-width: 768px) {
@@ -61,26 +64,42 @@ $color: #300f3c;
   border-width: 8px 45px 68px 47px;
   border-color: transparent transparent $border-color transparent;
 }
+
 .shape--windscreen {
-  width: 44.3%;
-  border-width: 12px 38px 61px 41px;
+  width: 45.3%;
+  border-width: 12px 39px 62px 39px;
   border-color: transparent transparent $color transparent;
-  left: 10px;
+  left: 8px;
+
+  @media only screen and (min-width: 768px) {
+    width: 44.3%;
+    border-width: 12px 38px 61px 41px;
+    left: 10px;  
+  }
 }
 
 /* capot */
 .shape--hood-outer {
   width: 74.3%;
   margin-left: 3%;
-  border-width: 82px 33px 42px 31px;
+  border-width: 82px 30px 42px 31px;
   border-color: transparent transparent $border-color transparent;
+
+  @media only screen and (min-width: 768px) {
+    border-width: 82px 33px 42px 31px;
+  }
 }
 
 .shape--hood {
   width: 73.3%;
   margin-left: 4.5%;
-  border-width: 85px 27px 37px 27px;
+  border-width: 85px 27px 37px 28px;
   border-color: transparent transparent $color transparent;
+
+
+  @media only screen and (min-width: 768px) {
+    border-width: 85px 27px 37px 27px;
+  }
 }
 
 /* level 1 */
