@@ -21,7 +21,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 99%;
   }
 
   &__windscreen {
@@ -186,14 +186,15 @@
   &__border {
     position: absolute;
     top: 78px;
-    left: 30px;
-    width: 72%;
+    left: 36px;
+    width: 68.5%;
     height: 2px;
     background-color: #e20b23;
 
     @media only screen and (min-width: 768px) {
       height: 3px;
-      left: 34px;
+      left: 38px;
+      width: 72%;
     }
   }
 }
