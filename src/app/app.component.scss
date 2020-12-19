@@ -1,7 +1,9 @@
 .car-animation {
-  background: linear-gradient(#2b1139, 70%, #a72d4f);
+	background: linear-gradient(#2b1139, 70%, #a72d4f);
+	max-width: 1200px;
   height: 100vh;
-  overflow: hidden;
+	overflow: hidden;
+	margin: 0 auto;
 
   &__mountains {
     position: relative;
@@ -11,24 +13,49 @@
   &__car {
     position: relative;
     top: 35vh;
-    left: 7vw;
+		left: 7vw;
+		z-index: 2;
 
     @media only screen and (min-width: 768px) {
       top: 48vh;
+		}
+		
+		@media only screen and (min-width: 1024px) {
+      top: 40vh;
+		}
+		
+		@media only screen and (min-width: 1200px) {
+      top: 65vh;
     }
 
     @media only screen and (min-width: 1440px) {
-      top: 65vh;
+      top: 72vh;
     }
   }
 
 	&__delimitation {
-		position: relative;
-		height: 1.3%;
+		position: absolute;
+    height: 2.5%;
 		width: 100%;
-		background-color: rgb(255, 254, 255);
-		box-shadow: 2px 0px 20px 10px #ad4fa7;
-		top: 55%;
+		max-width: 1200px;
+    background-color: #fffeff;
+    box-shadow: 2px 0px 20px 10px #ad4fa7;
+		top: 389px;
+		overflow: hidden;
+		z-index: 1;
+
+    @media only screen and (min-width: 768px) {
+			top: 49%;
+		}
+		
+		@media only screen and (min-width: 1024px) {
+			top: 45%;
+    }
+
+    @media only screen and (min-width: 1200px) {
+			top: 85%;
+    }
+
 	}
 
 	&__floor {
@@ -37,5 +64,7 @@
     top: 63%;
 		height: 25vh;
 		left: 2%;
+		overflow: hidden;
+
 	}
 }
