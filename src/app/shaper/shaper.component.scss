@@ -220,3 +220,73 @@ $color: #300f3c;
   border-radius: 0 0 5px 5px;
   left: 1px;
 }
+
+
+/* mountain 1 */
+.shape-mountain1-outer {
+  width: 0;
+  border-width: 66px 48px 62.5px 21px;
+  border-color: transparent white white white;
+}
+
+.shape-mountain1 { 
+  border-width: 124px 0px 0px 42px;
+  border-color: transparent transparent transparent #2b1139;
+}
+
+
+/* mountain 2 */
+.shape-mountain2-outer {
+  width: 0;
+  border-width: 61px 94px 69px 62px;
+  border-style: solid;
+  border-color: transparent white white white;
+
+}
+
+.shape-mountain2 {
+  width: 0;
+  border-width: 124px 0px 0px 42px;
+  border-color: transparent transparent transparent #2b1139;
+}
+
+
+/* mountain 3 */
+.shape-mountain3-outer {
+  width: 0;
+  border-color: transparent transparent transparent transparent;
+
+}
+
+.shape-mountain3 {
+  width: 0;
+  border-width: 111px 171px 0px 53px;
+  border-color: transparent #2b1139 transparent transparent;
+}
+
+
+/* mountain 4 */
+.shape-mountain4-outer {
+  width: 0;
+  border-width: 7px 121px 130px 0px;
+  border-color: transparent transparent white transparent;
+}
+
+.shape-mountain4 {
+  width: 0;
+  border-color: transparent transparent transparent #2b1139;
+}
+
+
+/* mountain 5 */
+.shape-mountain5-outer {
+  width: 0;
+  border-width: 68px 93px 69px 77px;
+  border-color: transparent white white white;
+
+}
+
+.shape-mountain5 { 
+  width: 0;
+  border-color: transparent transparent #2b1139 transparent;
+}

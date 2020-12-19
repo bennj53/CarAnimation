@@ -7,6 +7,7 @@ import { ShaperComponent } from './shaper/shaper.component';
 import { CarComponent } from './car/car.component';
 import { HeadlightComponent } from './headlight/headlight.component';
 import { HeadlightsComponent } from './headlights/headlights.component';
+import { MountainsComponent } from './mountains/mountains.component';
 
 @NgModule({
   declarations: [
@@ -14,8 +15,8 @@ import { HeadlightsComponent } from './headlights/headlights.component';
     ShaperComponent,
     CarComponent,
     HeadlightComponent,
-    HeadlightsComponent
-
+    HeadlightsComponent,
+    MountainsComponent
   ],
   imports: [
     BrowserModule,

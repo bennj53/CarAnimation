@@ -4,7 +4,7 @@
   width: 355px;
   height: 35%;
   top: 50%;
-  left: 5%;
+  left: 4%;
   transform: translate(-50%, -50%);
   border-style: solid;
   border-color: transparent;
@@ -13,6 +13,10 @@
 
   @media only screen and (min-width: 768px) {
     width: 453px;
+    left: 30%;
+  }
+
+  @media only screen and (min-width: 1440px) {
     left: 50%;
   }
 

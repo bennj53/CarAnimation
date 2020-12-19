@@ -1,0 +1,14 @@
+.car-animation {
+	background: linear-gradient(#2b1139, 70%, #a72d4f);
+	height: 100vh;
+
+	&__mountains {    
+		position: relative;
+		top: 300px;
+	}
+
+	&__car {    
+		position: relative;
+		top: 300px;
+	}
+}
