@@ -214,9 +214,10 @@ $color: #300f3c;
 
 .shape--level6 {
   width: 87%;
-  background-color: $color;
+  border-color: $color;
   border-radius: 0 0 5px 5px;
   left: 1px;
+  bottom: 1px;
 }
 
 /* mountain 1 */
