@@ -51,7 +51,7 @@ $color: #300f3c;
   margin: 0.5% -0.5% 0% 0%;
   border-width: 1px 78px 126px 85px;
   border-color: transparent transparent $color transparent;
-  top: 69px;
+  top: 66px;
 
   @media only screen and (min-width: 768px) {
     width: 48%;
@@ -72,6 +72,7 @@ $color: #300f3c;
   border-width: 12px 39px 62px 39px;
   border-color: transparent transparent $color transparent;
   left: 8px;
+  bottom: 3px;
 
   @media only screen and (min-width: 768px) {
     width: 44.3%;
@@ -97,6 +98,7 @@ $color: #300f3c;
   margin-left: 4.5%;
   border-width: 85px 27px 37px 28px;
   border-color: transparent transparent $color transparent;
+  bottom: 2px;
 
   @media only screen and (min-width: 768px) {
     border-width: 85px 27px 37px 27px;
@@ -131,7 +133,7 @@ $color: #300f3c;
   width: 94.5%;
   border-width: 21px 16px 0px 13px;
   border-color: $color transparent transparent transparent;
-  top: 165px;
+  top: 167px;
   left: -13px;
 }
 
