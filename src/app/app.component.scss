@@ -1,70 +1,74 @@
 .car-animation {
 	background: linear-gradient(#2b1139, 70%, #a72d4f);
-	max-width: 1200px;
-  height: 100vh;
+	height: 100vh;
 	overflow: hidden;
-	margin: 0 auto;
+
+
+	@media only screen and (min-width: 1024px) {
+		overflow-x: hidden;	
+		overflow-y: initial;	
+	}
+
+	&__container {
+		// max-width: 1200px;
+		height: 100vh;
+	}
 
   &__mountains {
-    position: relative;
-    top: 250px;
+		position: relative;
+		top: 250px;
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+
+		@media only screen and (min-width: 1200px) {
+      top: 0;
+    }
+
+		@media only screen and (min-width: 1440px) {
+      top: 0;
+    }
   }
 
   &__car {
     position: relative;
-    top: 35vh;
+		top: 20vh;
 		left: 7vw;
 		z-index: 2;
 
     @media only screen and (min-width: 768px) {
-      top: 48vh;
+      top: 20vh;
 		}
 		
 		@media only screen and (min-width: 1024px) {
-      top: 40vh;
+      top: 12vh;
 		}
 		
 		@media only screen and (min-width: 1200px) {
-      top: 65vh;
+      top: -120px;
     }
 
     @media only screen and (min-width: 1440px) {
-      top: 72vh;
+      top: -180px;
     }
   }
 
 	&__delimitation {
-		position: absolute;
-    height: 2.5%;
-		width: 100%;
-		max-width: 1200px;
+    height: 5px;
     background-color: #fffeff;
     box-shadow: 2px 0px 20px 10px #ad4fa7;
-		top: 389px;
 		overflow: hidden;
-		z-index: 1;
-
-    @media only screen and (min-width: 768px) {
-			top: 49%;
-		}
-		
-		@media only screen and (min-width: 1024px) {
-			top: 45%;
-    }
-
-    @media only screen and (min-width: 1200px) {
-			top: 85%;
-    }
-
+		position: relative;
 	}
 
 	&__floor {
 		position: absolute;
-    width: 100%;
-    top: 63%;
+    width: 100vw;
+    top: 102%;
 		height: 25vh;
-		left: 2%;
 		overflow: hidden;
+		display: flex;
+		justify-content: center;
 
 	}
 }
