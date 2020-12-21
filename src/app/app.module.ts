@@ -9,6 +9,7 @@ import { HeadlightComponent } from './headlight/headlight.component';
 import { HeadlightsComponent } from './headlights/headlights.component';
 import { MountainsComponent } from './mountains/mountains.component';
 import { FloorComponent } from './floor/floor.component';
+import { SunComponent } from './sun/sun.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FloorComponent } from './floor/floor.component';
     HeadlightComponent,
     HeadlightsComponent,
     MountainsComponent,
-    FloorComponent
+    FloorComponent,
+    SunComponent
   ],
   imports: [
     BrowserModule,
