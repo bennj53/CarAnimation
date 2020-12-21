@@ -1,0 +1,221 @@
+.star-1{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 2%;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 2000ms 500ms infinite alternate;
+}
+
+.star-2{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 8%;
+  margin-top: 6%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 2000ms 500ms infinite alternate;
+}
+
+.star-3{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 14%;
+  margin-top: 25%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 1200ms 200ms infinite alternate;
+}
+
+.star-4{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 23%;
+  margin-top: 11%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 1800ms 900ms infinite alternate;
+}
+
+.star-5{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 10%;
+  margin-top: 18%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 1000ms 1000ms infinite alternate;
+}
+
+.star-6{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin-left: 84%;
+  margin-top: 19%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 2px white;
+  animation: scintillement 3000ms 500ms infinite alternate;
+}
+
+.star-7{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 65%;
+  margin-top: 20%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 2500ms 1600ms infinite alternate;
+}
+
+.star-8{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 70%;
+  margin-top: 8%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 2200ms 1200ms infinite alternate;
+}
+
+.star-9{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 81%;
+  margin-top: 10%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 3000ms 3000ms infinite alternate;
+}
+
+.star-10{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 98%;
+  margin-top: 22%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px white;
+  animation: scintillement 3100ms 200ms infinite alternate;
+}
+
+.star-11{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 95%;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1800ms 1500ms infinite alternate;
+}
+
+.star-12{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 73%;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1800ms 1500ms infinite alternate;
+}
+
+.star-13{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 37%;
+  margin-top: 3%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1100ms 400ms infinite alternate;
+}
+
+.star-14{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 74%;
+  margin-top: 28%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1400ms 200ms infinite alternate;
+}
+
+.star-15{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 26%;
+  margin-top: 32%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1800ms 1500ms infinite alternate;
+}
+
+.star-16{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 37%;
+  margin-top: 18%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1600ms 450ms infinite alternate;
+}
+
+.star-17{
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin-left: 84%;
+  margin-top: 25%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px white;
+  animation: scintillement 1800ms 500ms infinite alternate;
+}
+
+
+@keyframes scintillement{
+  0%{
+      opacity: 40%;
+  }
+  25%{
+    opacity: 60%;
+  }
+  75%{
+    opacity: 70%;
+    box-shadow: 0px 0px 4px 2.5px white;
+  }
+  100%{
+    opacity: 100%;
+    box-shadow: 0px 0px 4.5px 2.5px white;
+  }
+}
