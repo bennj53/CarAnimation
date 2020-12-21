@@ -10,6 +10,7 @@ import { HeadlightsComponent } from './headlights/headlights.component';
 import { MountainsComponent } from './mountains/mountains.component';
 import { FloorComponent } from './floor/floor.component';
 import { SunComponent } from './sun/sun.component';
+import { PalmComponent } from './palm/palm.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SunComponent } from './sun/sun.component';
     HeadlightsComponent,
     MountainsComponent,
     FloorComponent,
-    SunComponent
+    SunComponent,
+    PalmComponent
   ],
   imports: [
     BrowserModule,
