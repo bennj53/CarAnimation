@@ -202,6 +202,30 @@
       width: 72%;
     }
   }
+
+  &__immatriculation-btn {
+    position: absolute;
+    width: 152px;
+    height: 28px;
+    background-color: white;
+    font-family: "Bungee Shade", cursiv;
+    color: #ad4fa7;
+    border-color: #B62EB1;
+    border-radius: 3px 3px 3px 3px;
+    transform: perspective(150px) rotate3d(0, 0, 9, 0deg) translate(0px, 0px);
+    animation: plaque-speed 1200ms 2500ms linear forwards;
+    cursor: pointer;
+    top: 134px;
+    left: 84px;
+
+    @media only screen and (min-width: 768px) {
+      left: 119px;
+    }
+
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
 }
 
 @keyframes car-speed {
@@ -213,5 +237,38 @@
   }
   100% {
     transform: perspective(125px) rotate3d(2, 0, -1, 1deg);
+  }
+}
+
+@keyframes plaque-speed {
+  0%{
+    transform: perspective(150px) rotate3d(0, 0, 9, 0deg) translate(0px, 0px);
+    z-index: 5;
+  }
+  20%{
+    transform: perspective(150px) rotate3d(0, 0, 9, 15deg) translate(0px, 60px);
+    z-index: 5;
+  }
+  40%{
+    transform: perspective(150px) rotate3d(-150, -50, -50, 50deg) translate(0px, 290px);
+    z-index: 5;
+  }
+  60%{
+    transform: perspective(150px) rotate3d(-100, -50, -9, 85deg) translate(0px, 120px);
+    z-index: -1;
+  }
+  80%{
+    transform: perspective(150px) rotate3d(0, 0, 9, -85deg) translate(90px, 10px);
+    z-index: -1;
+  }
+  90%{
+    transform: perspective(150px) rotate3d(0, 0, 0, 15deg) translate(20px, -300px) scale(3.5);
+    transform-origin: top;
+    z-index: 2;
+  }
+  100%{
+    transform: perspective(150px) rotate3d(0, 0, 0, 15deg) translate(5px, -275px) scale(2);
+    transform-origin: top;
+    z-index: 2;
   }
 }

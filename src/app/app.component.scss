@@ -4,8 +4,8 @@
   overflow: hidden;
 
   @media only screen and (min-width: 1024px) {
-    overflow-x: hidden;
-    overflow-y: initial;
+    //overflow-x: hidden;
+    //overflow-y: initial;
   }
 
   &__container {
@@ -18,7 +18,8 @@
     top: 250px;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+		width: 100vw;
+		z-index: 1;
 
     @media only screen and (min-width: 1200px) {
       top: 0;
@@ -32,9 +33,11 @@
   &__car {
     position: relative;
     top: 20vh;
-    left: 7vw;
+		left: 7vw;
+		z-index: 2;
 
     @media only screen and (min-width: 768px) {
+			left: 0;
       top: 20vh;
     }
 
@@ -47,7 +50,7 @@
     }
 
     @media only screen and (min-width: 1440px) {
-      top: -180px;
+      top: -150px;
     }
   }
 
@@ -60,10 +63,29 @@
   }
 
   &__floor {
-    position: absolute;
+    position: relative;
     width: 100vw;
-    top: 100%;
+		top: 30%;
     height: 54vh;
-    overflow: hidden;
-  }
+		overflow: hidden;
+		
+		@media only screen and (min-width: 768px) {
+			top: 18%;
+			left: 55px;
+			width: 84vw;
+		}
+		
+		@media only screen and (min-width: 1024px) {
+			left: 135px;
+		}
+		
+		@media only screen and (min-width: 1200px) {
+			top: 0;
+		}
+		
+		@media only screen and (min-width: 1440px) {
+			left: 315px;
+			width: 64vw;
+    }
+	}
 }
