@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from "../../environments/environment";
 
 @Component({
   selector: 'app-palm',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./palm.component.scss']
 })
 export class PalmComponent implements OnInit {
+
+  public prod: boolean = environment.production
 
   constructor() { }
 
