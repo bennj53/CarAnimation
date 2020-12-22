@@ -1,3 +1,8 @@
 .mountains {
-  display: flex;
+  position: relative;
+  height: 250px;
+
+  @media only screen and (min-width: 768px) {
+    height: 600px;
+  }
 }

@@ -1,5 +1,6 @@
 $border-color: #e20b23;
 $color: #300f3c;
+$white:#fff;
 
 .shape {
   position: relative;
@@ -228,13 +229,22 @@ $color: #300f3c;
   top: 13vw;
   left: 0vw;
   border-width: 0vw 0 34vw 26vw;
-  border-color: transparent transparent white transparent;
+  border-color: transparent transparent $white transparent;
 }
 .shape-mountain1 {
   border-width: 38vw 0 33vw 25vw;
   border-color: transparent transparent $color transparent;
   left: 1vw;
 }
+
+.shape-mountain1b {
+  border-width: 38vw 0 33vw 25vw;
+  border-color: transparent transparent $white transparent;
+  margin-left: -2px;  
+  left: 1vw;
+}
+
+
 
 /* mountain 2 */
 .shape-mountain2-outer {
@@ -253,6 +263,14 @@ $color: #300f3c;
   left: 26vw;
 }
 
+.shape-mountain2b {
+  width: 0;
+  border-width: 33vw 0vw 0vw 30vw;
+  border-color: transparent transparent transparent #fff;
+  left: 26vw;
+  margin-left: 2px;
+}
+
 /* mountain 3 */
 .shape-mountain3-outer {
   width: 0;
@@ -268,6 +286,14 @@ $color: #300f3c;
   left: 26.8vw;
 }
 
+.shape-mountain3b {
+  border-width: 38vw 31.4vw 46vw 37vw;
+  border-color: transparent transparent $white transparent;
+  margin-left: -2px;
+  padding-right: 4px;  left: 26.8vw;
+}
+
+
 /* mountain 4 */
 .shape-mountain4-outer {
   width: 0;
@@ -280,5 +306,13 @@ $color: #300f3c;
 .shape-mountain4 {
   border-width: 0vw 32vw 30vw 32vw;
   border-color: transparent transparent $color transparent;
+  left: 54vw;
+}
+
+.shape-mountain4b {
+  border-width: 0vw 32vw 30vw 32vw;
+  border-color: transparent transparent #fff transparent;
+  margin-left: -2px;
+  padding-left: 4px;
   left: 54vw;
 }
