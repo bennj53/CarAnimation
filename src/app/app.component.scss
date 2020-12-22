@@ -72,26 +72,23 @@
 
   &__car {
     position: relative;
-    top: 20vh;
+    top: 10vh;
     left: 7vw;
     z-index: 2;
 
     @media only screen and (min-width: 768px) {
       left: 0;
-      top: 20vh;
+      top: 0;
     }
 
     @media only screen and (min-width: 1024px) {
-      top: 12vh;
+      top: -20%;
     }
 
-    @media only screen and (min-width: 1200px) {
-      top: -120px;
+    @media only screen and (min-width: 2500px) {
+      top: -8%;
     }
 
-    @media only screen and (min-width: 1440px) {
-      top: -150px;
-    }
   }
 
   &__delimitation {
