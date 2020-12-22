@@ -3,6 +3,7 @@
   height: 100vh;
   overflow: hidden;
 
+
   @media only screen and (min-width: 1024px) {
     //overflow-x: hidden;
     //overflow-y: initial;
@@ -40,6 +41,24 @@
       bottom: 35%;
     }
 
+
+    /* Landscape mobile */
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      display: none;
+    }
+
+    /* Landscape tablet */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      bottom: 28%;
+    }
   }
 
   &__sun {
@@ -57,6 +76,14 @@
       z-index: 2;
     }
 
+     /* Landscape tablet */
+     @media only screen 
+     and (min-device-width: 768px) 
+     and (max-device-width: 1024px) 
+     and (orientation: landscape) 
+     and (-webkit-min-device-pixel-ratio: 1) {
+      z-index: 2;
+     }
   }
 
   &__stars {
@@ -89,6 +116,25 @@
       top: -8%;
     }
 
+     /* Landscape mobile */
+     @media only screen 
+     and (min-device-width: 320px) 
+     and (max-device-width: 480px)
+     and (-webkit-min-device-pixel-ratio: 2)
+     and (orientation: landscape) {
+      top: -48%;
+     }
+
+
+     /* Landscape tablet */
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (orientation: landscape) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+        top: -48%;
+      }
+
   }
 
   &__delimitation {
@@ -118,7 +164,26 @@
     @media only screen and (min-width: 1200px) {
       bottom: -15%
     }
-   
+
+    /* Landscape mobile */
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      height: 170px;
+      overflow: hidden;
+    }
+
+
+     /* Landscape tablet */
+     @media only screen 
+     and (min-device-width: 768px) 
+     and (max-device-width: 1024px) 
+     and (orientation: landscape) 
+     and (-webkit-min-device-pixel-ratio: 1) {
+      height: 450px;
+      overflow: hidden;     }
   }
 
   &__palm {
@@ -143,6 +208,28 @@
       left: 25%;
       animation: none;
     }
+
+     /* Landscape mobile */
+     @media only screen 
+     and (min-device-width: 320px) 
+     and (max-device-width: 480px)
+     and (-webkit-min-device-pixel-ratio: 2)
+     and (orientation: landscape) {
+      animation: none;
+      top: -55%;
+      left: 10%;
+     }
+
+       /* Landscape tablet */
+       @media only screen 
+       and (min-device-width: 768px) 
+       and (max-device-width: 1024px) 
+       and (orientation: landscape) 
+       and (-webkit-min-device-pixel-ratio: 1) {
+        animation: none;
+        top: -35%;
+        left: 10%;
+      }
   }
 
   &__title {
