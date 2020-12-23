@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
+import { appRoutes } from "./app.routes";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShaperComponent } from './shaper/shaper.component';
@@ -28,7 +30,8 @@ import { StarsComponent } from './stars/stars.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
