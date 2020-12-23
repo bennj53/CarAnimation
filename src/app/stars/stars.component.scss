@@ -1,4 +1,4 @@
-.star-1{
+.star-1 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -10,7 +10,7 @@
   animation: scintillement 2000ms 500ms infinite alternate;
 }
 
-.star-2{
+.star-2 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -22,7 +22,7 @@
   animation: scintillement 2000ms 500ms infinite alternate;
 }
 
-.star-3{
+.star-3 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -34,7 +34,7 @@
   animation: scintillement 1200ms 200ms infinite alternate;
 }
 
-.star-4{
+.star-4 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -46,7 +46,7 @@
   animation: scintillement 1800ms 900ms infinite alternate;
 }
 
-.star-5{
+.star-5 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -58,7 +58,7 @@
   animation: scintillement 1000ms 1000ms infinite alternate;
 }
 
-.star-6{
+.star-6 {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -70,7 +70,7 @@
   animation: scintillement 3000ms 500ms infinite alternate;
 }
 
-.star-7{
+.star-7 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -82,7 +82,7 @@
   animation: scintillement 2500ms 1600ms infinite alternate;
 }
 
-.star-8{
+.star-8 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -94,7 +94,7 @@
   animation: scintillement 2200ms 1200ms infinite alternate;
 }
 
-.star-9{
+.star-9 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -106,7 +106,7 @@
   animation: scintillement 3000ms 3000ms infinite alternate;
 }
 
-.star-10{
+.star-10 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -118,7 +118,7 @@
   animation: scintillement 3100ms 200ms infinite alternate;
 }
 
-.star-11{
+.star-11 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -130,7 +130,7 @@
   animation: scintillement 1800ms 1500ms infinite alternate;
 }
 
-.star-12{
+.star-12 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -142,7 +142,7 @@
   animation: scintillement 1800ms 1500ms infinite alternate;
 }
 
-.star-13{
+.star-13 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -154,7 +154,7 @@
   animation: scintillement 1100ms 400ms infinite alternate;
 }
 
-.star-14{
+.star-14 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -166,7 +166,7 @@
   animation: scintillement 1400ms 200ms infinite alternate;
 }
 
-.star-15{
+.star-15 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -178,7 +178,7 @@
   animation: scintillement 1800ms 1500ms infinite alternate;
 }
 
-.star-16{
+.star-16 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -190,7 +190,7 @@
   animation: scintillement 1600ms 450ms infinite alternate;
 }
 
-.star-17{
+.star-17 {
   position: absolute;
   width: 2px;
   height: 2px;
@@ -202,20 +202,19 @@
   animation: scintillement 1800ms 500ms infinite alternate;
 }
 
-
-@keyframes scintillement{
-  0%{
-      opacity: 40%;
-  }
-  25%{
-    opacity: 60%;
-  }
-  75%{
-    opacity: 70%;
-    box-shadow: 0px 0px 4px 2.5px white;
-  }
-  100%{
-    opacity: 100%;
-    box-shadow: 0px 0px 4.5px 2.5px white;
-  }
-}
+// @keyframes scintillement {
+//   0% {
+//     opacity: 40%;
+//   }
+//   25% {
+//     opacity: 60%;
+//   }
+//   75% {
+//     opacity: 70%;
+//     box-shadow: 0px 0px 4px 2.5px white;
+//   }
+//   100% {
+//     opacity: 100%;
+//     box-shadow: 0px 0px 4.5px 2.5px white;
+//   }
+// }
